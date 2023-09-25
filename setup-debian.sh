@@ -92,7 +92,7 @@ source-directory /etc/network/interfaces.d" > /etc/network/interfaces
 apt install -yi network-manager
 
 # Desktop
-apt install -y xorg xserver-xorg-video-all xserver-xorg-core xinit fonts-liberation fonts-dejavu fonts-droid-fallback fonts-noto fonts-roboto openbox qterminal xscreensaver pulseaudio
+apt install -y xorg xserver-xorg-video-all xserver-xorg-core xinit fonts-liberation fonts-dejavu fonts-droid-fallback fonts-noto fonts-roboto xfce qterminal xscreensaver pulseaudio
 echo "/dev/sda2 /   ext4    defaults    0   0" > /etc/fstab
 EOT
 
